@@ -11,9 +11,18 @@ header {
 h1 {
   width: 204px;
   height: auto;
+  margin: 0;
 }
 
 .header-card {
   background-color: #ffffffdd;
+  padding: 36px 10px 29px;
+  margin: 30px;
   font-size: 20px;
+  color: #57BB6B;
+  text-align: center;
+}
+
+.header-card p {
+  margin: 0;
 }
