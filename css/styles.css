@@ -17,6 +17,15 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  color: white;
+}
+
+.presentation-produits {
+  background-color: #57BB6B;
+  padding: 50px 30px;
+}
+
 .header-card {
   background-color: #ffffffdd;
   font-size: 20px;
