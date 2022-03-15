@@ -1,6 +1,7 @@
 body {
   scroll-behavior: smooth;
-  font-family: quattrocento;
+  font-family: Maven Pro;
+  font-weight: 400;
   text-align: center;
   max-width: 400px;
   margin: auto;
@@ -33,6 +34,14 @@ h1 {
   background-color:#57BB6B;
   padding: 14px 10px;
   margin-bottom: 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 15px;
+}
+
+.button-light {
+  background-color: white;
+  color: #57BB6B;
 }
 
 .button-container {
