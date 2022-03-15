@@ -26,8 +26,27 @@ h1 {
   padding: 30px;
 }
 
+.intro-site {
+  padding: 100px 60px;
+}
+
+.intro-site p {
+  font-family: Quattrocento;
+  margin: 30px 0;
+}
+
 .header-card p {
   margin: 0;
+}
+
+.fruitline img {
+  width: 28px;
+}
+
+.fruitline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .button {
