@@ -1,3 +1,18 @@
+body {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: url(../img/vectorized-fruits.webp);
+  border-top: solid green 8px;
+}
+
+h1 {
+  width: 204px;
+  height: auto;
+}
+
 .header-card {
   background-color: #ffffffdd;
+  font-size: 20px;
 }
