@@ -114,6 +114,7 @@ h2 {
 .element img {
   width: 70px;
   margin-top: 20px;
+  align-self: flex-end;
 }
 
 .element h1 {
@@ -126,4 +127,27 @@ h2 {
   font-family: Quattrocento;
   margin: 0;
   font-size: 12px;
+}
+
+.element-banana {
+  background-color: #FFF8D7;
+}
+
+.element-kiwi {
+  background-color: #C4F2AD;
+}
+
+.element-coffee {
+  background-color: #D3C6B2;
+}
+
+.element-strawberry {
+  background-color: #F7A4B4;
+}
+
+.product {
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
