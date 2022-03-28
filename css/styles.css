@@ -67,7 +67,11 @@ h2 {
 }
 
 .intro-site {
-  padding: 100px 60px;
+  padding: 100px 30px;
+}
+
+.intro-site h2 {
+  color: black;
 }
 
 .intro-site p {
