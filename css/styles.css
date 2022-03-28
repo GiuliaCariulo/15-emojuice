@@ -97,6 +97,17 @@ h2 {
 }
 
 .element {
-  background-color: red;
-  border-radius: 50px;
+  background-color: wheat;
+  border-radius: 20px;
+  padding: 0 40px;
+}
+
+.element img {
+  width: 70px;
+}
+
+.element h1 {
+  font-family: Sriracha;
+  font-size: 25px;
+  font-weight: normal;
 }
