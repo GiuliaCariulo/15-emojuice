@@ -9,10 +9,11 @@ body {
 
 header {
   background-image: url(../img/vectorized-fruits.webp);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   border-top: solid #57BB6B 8px;
-  height: 380px;
+  height: 350px;
 }
 
 h1 {
@@ -34,7 +35,7 @@ h2 {
   background-color: #ffffffdd;
   color: #57BB6B;
   text-align: center;
-  margin: 30px;
+  margin: 30px 30px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -73,6 +74,7 @@ h2 {
   text-decoration: none;
   color: white;
   border-radius: 15px;
+  margin-bottom: 15px;
 }
 
 .button-light {
@@ -83,6 +85,7 @@ h2 {
 .button-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  padding: 20px;
 }
