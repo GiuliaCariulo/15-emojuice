@@ -91,12 +91,12 @@ h2 {
   justify-content: space-between;
 }
 
-.presentation-produits {
+.presentation-products {
   background-color: #57BB6B;
   padding: 5px 30px 40px;
 }
 
-.presentation-produits .element {
+.presentation-products .element {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
