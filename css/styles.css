@@ -96,18 +96,34 @@ h2 {
   padding: 5px 30px 40px;
 }
 
+.presentation-produits .element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
 .element {
   background-color: wheat;
   border-radius: 20px;
   padding: 0 40px;
+  margin-bottom: 40px;
+  text-align: left;
 }
 
 .element img {
   width: 70px;
+  margin-top: 20px;
 }
 
 .element h1 {
   font-family: Sriracha;
   font-size: 25px;
   font-weight: normal;
+}
+
+.element p {
+  font-family: Quattrocento;
+  margin: 0;
+  font-size: 12px;
 }
