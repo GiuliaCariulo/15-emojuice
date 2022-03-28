@@ -34,7 +34,10 @@ h2 {
   color: #57BB6B;
   text-align: center;
   margin: 30px;
-  padding: 40px;
+}
+
+.header-card img {
+  width: 205px;
 }
 
 .intro-site {
@@ -47,6 +50,7 @@ h2 {
 }
 
 .header-card p {
+  font-family: Quattrocento;
   margin: 0;
 }
 
