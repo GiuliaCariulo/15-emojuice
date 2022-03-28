@@ -30,14 +30,25 @@ h2 {
 
 .header-card {
   background-color: #ffffffdd;
-  font-size: 20px;
   color: #57BB6B;
   text-align: center;
   margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .header-card img {
-  width: 205px;
+  width: 150px;
+  margin-top: 25px;
+}
+
+.header-card p {
+  font-family: Quattrocento;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px 0 30px;
 }
 
 .intro-site {
@@ -47,11 +58,6 @@ h2 {
 .intro-site p {
   font-family: Quattrocento;
   margin: 30px 0;
-}
-
-.header-card p {
-  font-family: Quattrocento;
-  margin: 0;
 }
 
 .fruitline img {
@@ -67,7 +73,6 @@ h2 {
 .button {
   background-color:#57BB6B;
   padding: 14px 10px;
-  margin-bottom: 20px;
   text-decoration: none;
   color: white;
   border-radius: 15px;
@@ -81,12 +86,6 @@ h2 {
 .button-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.button .contact-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
