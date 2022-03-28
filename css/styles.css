@@ -7,13 +7,21 @@ body {
   margin: auto;
 }
 
-header {
+.home {
   background-image: url(../img/vectorized-fruits.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-top: solid #57BB6B 8px;
-  height: 350px;
+  height: 340px;
+}
+
+.detail {
+  background-image: url(../img/vectorized-fruits.webp);
+  background-size: cover;
+  background-position: center;
+  border-top: solid #57BB6B 8px;
+  height: 200px;
 }
 
 footer {
