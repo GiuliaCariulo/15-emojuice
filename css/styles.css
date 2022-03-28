@@ -125,8 +125,9 @@ h2 {
 
 .element p {
   font-family: Quattrocento;
-  margin: 0;
   font-size: 12px;
+  color: #5b5b5b;
+  margin: 0;
 }
 
 .element-banana {
@@ -149,7 +150,7 @@ h2 {
   color: black;
   font-size: 12px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .contact-container {
