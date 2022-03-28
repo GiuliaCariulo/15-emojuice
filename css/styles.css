@@ -9,15 +9,16 @@ body {
 
 header {
   background-image: url(../img/vectorized-fruits.webp);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
   border-top: solid #57BB6B 8px;
+  height: 380px;
 }
 
 h1 {
+  width: 205px;
   height: auto;
-  margin: 0;
+  margin: 25px 0 0;
 }
 
 h2 {
@@ -38,11 +39,6 @@ h2 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-}
-
-.header-card img {
-  width: 200px;
-  margin: 25px 0 0;
 }
 
 .header-card p {
@@ -89,5 +85,4 @@ h2 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin: 30px 0 40px;
 }
