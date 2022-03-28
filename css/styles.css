@@ -144,7 +144,7 @@ footer p {
 .element p {
   font-family: Quattrocento;
   font-size: 12px;
-  color: #5b5b5b;
+  color: #7e7d7d;
   margin: 0;
 }
 
@@ -185,7 +185,7 @@ footer p {
 .intro-element-kiwi {
   background-color: #C4F2AD;
   color: black;
-  padding: 50px;
+  padding: 30px;
   box-sizing: border-box;
 }
 
@@ -196,10 +196,29 @@ footer p {
 }
 
 .intro-element-kiwi p {
-  color: #5b5b5b;
+  color: #7e7d7d;
   margin: 0;
+  font-size: 12px;
 }
 
 .intro-element-kiwi img {
-  width: 90px;
+  width: 120px;
+  margin-top: 20px;
+}
+
+.informations {
+  background-color: #57BB6B;
+  color: white;
+  padding: 50px;
+  text-align: left;
+}
+
+.informations img {
+  width: 240px;
+  margin: auto;
+}
+
+li {
+  text-align: left;
+  font-size: 10px;
 }
